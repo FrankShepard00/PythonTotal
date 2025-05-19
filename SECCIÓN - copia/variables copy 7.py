@@ -1,7 +1,3 @@
-edad = 30
-edad2 = 15
-print(edad + edad2)
-
 mi_numero = 1 + 3
 print(mi_numero)
 print(mi_numero + mi_numero)
