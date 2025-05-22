@@ -1,0 +1,6 @@
+valor = round(95.666666666666666, 2)
+print(valor)
+print(type(valor))
+valor = round(valor)
+print(valor)
+print(type(valor))
