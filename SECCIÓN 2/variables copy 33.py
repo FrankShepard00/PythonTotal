@@ -7,4 +7,4 @@ con 4 posiciones decimales.
 import math 
 resultado = math.sqrt(5)
 resultado = round(resultado, 4)
-print(resultado)
+print(resultado) # 2.2361

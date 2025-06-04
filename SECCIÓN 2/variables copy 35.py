@@ -12,3 +12,4 @@ nombre = input("Ingresa tu nombre: ")
 ventas = float(input("Ingresa tus ventas: "))
 comision = round((ventas * 13) / 100, 2)
 print(f"Ok {nombre}, este mes ganaste {comision} pesos")
+

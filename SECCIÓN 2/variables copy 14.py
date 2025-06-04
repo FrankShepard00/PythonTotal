@@ -5,3 +5,4 @@ print(type(num1))
 num2 = int(num1)
 print(num2)
 print(type(num2))
+
