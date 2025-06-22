@@ -1,62 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FadeIn FadeOut</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <style>
-        p {
-            position: relative;
-            width: 400px;
-            height: 90px;
-            margin-left: 40px;
-            padding-top: 40px;
-        }
-        div {
-            position: absolute;
-            display: none;
-            width: 420px;
-            height: 60px;
-            font-size: 30px;
-            text-align: center;
-            color: yellow;
-            background: #000000;
-            margin-left: 40px;
-            padding-top: 40px;
-            top: 50px;
-            left: 0;
-        }
-        span {
-            display: none;
-        }
-    </style>
+    <title>Milisegundos desde Epoch</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 
-    <button id="boton1">Mostrar</button>
-    <button id="boton2">Ocultar</button>
+<script>
+    $(document).ready(function(){
 
-    <p>Este es un simple texto.</p>
+        $("#boton1").click(function(){
+            $("#caja").slideDown(3000, function(){
+                $(this).css("background-color", "black")
+            })
+        })
+
+        $("#boton2").click(function(){
+            $("#caja").slideUp(3000, function(){
+                $(this).css("background-color", "red")
+            })
+        })
+
+    });
+</script>
+
+    <button id="boton1">Abajo</button>
+    <button id="boton2">Arriba</button>
+    <div id="caja"></div>
+
+
+<style>
+
+        #caja{
+            display: none;
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            border: 2px solid black;
+            margin: 100px;
+        }
+
+        body{
+            background-color: rgb(59, 37, 20);
+        }
+
+</style>
+ 
+
+
     
-    <div>
-        <span>Mensaje oculto</span>
-    </div>
-
-    <script>
-        $(document).ready(function(){
-            $("#boton1").click(function(){
-                $("div").fadeIn(3000, function(){
-                    $("span").fadeIn(1000);
-                });
-            });
-            $("#boton2").click(function(){
-                $("span").fadeOut(1000, function(){
-                    $("div").fadeOut(3000);
-                });
-            });
-        });
-    </script>
-
 </body>
 </html>

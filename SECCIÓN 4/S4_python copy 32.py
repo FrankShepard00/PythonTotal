@@ -6,3 +6,4 @@ while numero > -1:
         numero -= 1
     else: 
         numero -= 1
+        

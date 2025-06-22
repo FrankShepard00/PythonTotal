@@ -22,4 +22,5 @@ for numero in lista_numeros:
     else:
         suma_impares = suma_impares + numero
         
-         
+print(suma_pares) # 68
+print(suma_impares) # 45

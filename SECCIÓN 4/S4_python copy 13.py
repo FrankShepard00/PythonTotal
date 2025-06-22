@@ -18,3 +18,5 @@ palabra1 = "éxito"
 palabra2 = "tecnología"
 
 mi_bool = palabra1 not in frase and palabra2 not in frase
+
+print(mi_bool)

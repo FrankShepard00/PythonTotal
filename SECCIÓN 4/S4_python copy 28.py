@@ -4,3 +4,4 @@ while monedas > 0:
     monedas -= 1
 else:
     print("No tengo más monedas")
+    

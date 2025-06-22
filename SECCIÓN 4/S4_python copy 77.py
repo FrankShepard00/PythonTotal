@@ -48,4 +48,5 @@ while quiere_jugar.lower() == 'y':
     quiere_jugar = input(f"¿Quieres jugar de nuevo {nombre_usuario}? y/n ")
     if quiere_jugar.lower() != 'y':
         print(f"Juego terminado, ¡gracias por jugar {nombre_usuario}!")
+        
 

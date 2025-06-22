@@ -18,3 +18,4 @@ combinado = list(zip(capitales, paises))
 
 for capital, pais in combinado:
     print(f"La capital de {pais} es {capital}")
+    

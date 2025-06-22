@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Milisegundos desde Epoch</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<div>
+    <input type="date"  id="fecha">
+    <button id="boton">Calcular días</button>
+</div>
+
+<div id="info"></div>
+
+<script>
+    $(document).ready(function(){
+
+        $("#boton").click(function(){
+            var hoySegs = $.now() / 1000;
+            var valorFechaSegs = Date.parse($("#fecha").val()) / 1000; 
+            console.log("hoy "+hoySegs)
+            console.log(typeof(hoySegs))
+            console.log("fechas "+valorFechaSegs)
+            console.log(typeof(valorFechaSegs))
+
+
+
+            if(!valorFechaSegs){
+                return;
+            }
+
+            diferencia = Math.ceil((valorFechaSegs - hoySegs) /(60*60*24));
+            console.log("Diferencia: "+diferencia)
+            console.log(typeof(diferencia))
+
+            if(diferencia === 1){
+                $("#info").text("Falta 1 día")
+            }else if(diferencia === -1){
+                $("#info").text("Eso fue hace 1 día")
+            }else if(diferencia < -1){
+                $("#info").text("Eso fue hace "+diferencia+" días ")
+            }else if(diferencia > 1){
+                $("#info").text("Faltan "+diferencia+" días ")
+            } else {
+                $("#info").text("La fecha es hoy!")
+            }
+
+        })
+
+
+    });
+
+</script>
+
+
+
+    <style>
+          body{
+            background-color: chocolate;
+        }
+
+</style>
+</body>
+</html>

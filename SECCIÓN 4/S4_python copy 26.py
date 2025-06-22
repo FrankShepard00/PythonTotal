@@ -12,3 +12,4 @@ suma_numeros = 0
 for numero in lista_numeros:
     suma_numeros = suma_numeros + numero
     
+print(suma_numeros)

@@ -9,4 +9,5 @@ Llama a la lista obtenida con el nombre de variable lista_indices .
 
 
 lista_indices = list(enumerate("Python"))
+print(lista_indices)
 

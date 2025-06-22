@@ -21,3 +21,4 @@ lista_nombres = ["Marcos", "Laura", "Mónica", "Javier", "Celina", "Marta", "Dar
 for indice, nombre in enumerate(lista_nombres):
     if nombre[0] == 'M':
         print(indice)
+        

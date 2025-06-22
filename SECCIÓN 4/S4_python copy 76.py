@@ -34,5 +34,6 @@ for e in elementos:
             print(titulo, protagonista, director)
         case _:
             print("No se que es esto")
+            
 
             

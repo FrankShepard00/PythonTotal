@@ -7,4 +7,8 @@ Crea un objeto zip formado a partir de listas, de un conjunto de marcas y produc
 marcas = ["Sony", "HP", "Samsung"]
 productos = ["Audifonos", "Pantalla", "Celular"]
 
-mi_zip = zip(marcas, productos)
+mi_zip = list(zip(marcas, productos))
+print(mi_zip)
+
+for marca, producto in mi_zip:
+    print(f"{producto} de la marca {marca}")

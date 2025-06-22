@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Milisegundos desde Epoch</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <style>
+        #caja{
+            height: 150px;
+            width: 300px;
+        }        
+    </style>
+    <h4>Eventos "scrolltop"</h4>
+    <textarea id="caja">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolore laudantium natus enim. Quia est molestiae asperiores, veritatis beatae tempora quaerat labore earum vitae, fugit cum esse aliquam vero. Placeat.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam delectus porro fugit minima quia eveniet ipsum mollitia, dolorum dolore pariatur excepturi tempore exercitationem eos adipisci unde ad, ipsam aliquam in!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga doloremque temporibus, debitis voluptatem voluptas asperiores. Sapiente, placeat optio officiis dolorem incidunt ea mollitia quia, maiores fugiat eaque inventore quod dicta?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nam voluptate dignissimos excepturi eum ducimus fugit, non modi sed exercitationem ad architecto eius dolore vero atque, quaerat, quidem ipsa? Dolorum.
+    </textarea>
+<div id="info"></div>
+    <script>
+        $(document).ready(function(){
+            $("#caja").scroll(function(){
+                var posicionVertical = $(this).scrollTop().toFixed(2);
+                $("#info").html("Posición vertical es: "+ posicionVertical)
+            })
+        })
+           
+
+    </script>
+ 
+
+
+    
+</body>
+</html>

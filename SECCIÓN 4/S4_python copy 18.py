@@ -30,3 +30,4 @@ elif habla_ingles == True and sabe_python == False:
 else:
     print("Para postularte, necesitas saber programar en Python y tener conocimientos de inglés")
     
+    

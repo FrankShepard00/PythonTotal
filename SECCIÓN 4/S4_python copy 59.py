@@ -22,6 +22,11 @@ diccionario_edades = {
 }
 
 edad_minima = min(diccionario_edades.values())
-print(edad_minima)
 ultimo_nombre = max(diccionario_edades)
-print(ultimo_nombre)
+
+for nombre, edad in diccionario_edades.items():
+    if edad == edad_minima:
+        print(f"{nombre} tiene la edad minima, con {edad} años.")
+    if nombre == ultimo_nombre:
+        print(f"La última persona de la lista alfabética es {nombre} y tiene la edad de {edad} años.")
+    

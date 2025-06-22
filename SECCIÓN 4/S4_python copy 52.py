@@ -25,3 +25,6 @@ port = ["um", "dois", "três", "quatro", "cinco"]
 ing = ["one", "two", "three", "four", "five"]
 
 numeros = list(zip(esp, port, ing))
+
+for esp, port, ing in numeros:
+    print(f"El número \"{esp}\", en portugués se dice \"{port}\" y en inglés se dice \"{ing}\".")
