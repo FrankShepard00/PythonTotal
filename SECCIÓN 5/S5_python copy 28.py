@@ -8,3 +8,4 @@ for servidor in servidores:
 else:
     print("Limpieza: Ningún servidor disponible")
     print("Activando modo offline")
+    
