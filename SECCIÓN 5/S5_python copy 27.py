@@ -7,3 +7,4 @@ for num in numeros:
     print(f"Procesando: {num}")
 else:
     print("Todos los números son validos") # Solo si se procesaron todos
+    

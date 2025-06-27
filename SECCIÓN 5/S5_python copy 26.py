@@ -6,3 +6,4 @@ for num in numeros:
         break
 else:
     print("No encontrado") # Solo se ejecuta si no se usó break
+    

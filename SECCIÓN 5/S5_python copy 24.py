@@ -19,7 +19,7 @@ def promedio(lista):
     return sum(lista) / len(lista)
  
     
-promedio(lista_numeros)
+print(promedio(lista_numeros))
      
         
 

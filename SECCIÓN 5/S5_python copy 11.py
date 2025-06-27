@@ -11,3 +11,4 @@ def usd_a_eur(usd):
     return usd * 0.90
     
 dolares = usd_a_eur(5)
+print(dolares)

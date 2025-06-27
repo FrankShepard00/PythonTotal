@@ -7,3 +7,4 @@ precios_cafe = [
 for cafe, precio in precios_cafe:
     print(cafe, precio)
     
+

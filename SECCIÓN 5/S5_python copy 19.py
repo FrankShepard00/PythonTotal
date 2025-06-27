@@ -8,3 +8,5 @@ def cantidad_pares(lista_numeros):
 lista_numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 resultado = cantidad_pares(lista_numeros)
 print(resultado)
+
+

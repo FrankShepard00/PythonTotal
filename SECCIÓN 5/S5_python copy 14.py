@@ -7,6 +7,6 @@ def chequear_3_cifras(lista):
         
     return False
         
-resultado = chequear_3_cifras([55, 999, 6000])
+resultado = chequear_3_cifras([6000, 1999, 6000])
 print(type(resultado))
 print(resultado)

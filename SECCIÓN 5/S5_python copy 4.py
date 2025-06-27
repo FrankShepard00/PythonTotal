@@ -9,3 +9,4 @@ conjuntos_aislados = marcas_smartphones.isdisjoint(marcas_tv)
 
 # Se imprime el resultado
 print(conjuntos_aislados)  # Resultado: True
+
