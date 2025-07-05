@@ -6,3 +6,7 @@ def lista_atributos(**kwargs):
 
 
 print(lista_atributos(a = 1, b = 2, c = 3))
+
+
+
+

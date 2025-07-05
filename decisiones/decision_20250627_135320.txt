@@ -1,0 +1,20 @@
+ANÁLISIS DE DECISIÓN
+==================================================
+Decisión: Mudarnos a la CDMX
+Fecha y hora: 27/06/2025 13:53:20
+
+PROS (1):
+--------------------
+1. Veríamos más a nuestra familia y amigos. - 3 (Significativamente relevante)
+
+CONTRAS (2):
+--------------------
+1. Costo de vida en general más elevado - 5 (Extremadamente relevante)
+2. Vamos a vivir en un espacio más pequeño y con ruido - 4 (Muy relevante)
+
+RESUMEN:
+--------------------
+Total PROS: 3
+Total CONTRAS: 9
+PUNTUACIÓN FINAL: -6
+RECOMENDACIÓN: Considera con cuidado. La decisión tiene una puntuación negativa.

@@ -6,3 +6,4 @@ def suma_cuadrados(*args):
     return total
 
 print(suma_cuadrados(1, 2, 3))
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<script>
+    $(document).ready(function(){
+        console.log($.now() + "---" + (new Date).getTime());
+        var segundos = $.now() / 1000;
+        var eventoSegundos = Date.parse("5 Dec 2025") / 1000;
+       
+        var tiempo = eventoSegundos - segundos;
+        var diasParaElEvento = Math.floor(tiempo / (60 * 60 * 24));
+        $("#info").text("Faltan "+ diasParaElEvento + " días para el evento");
+    });
+</script>
+
+<div id="info"></div>
+
+<div id="info"></div>
+
+<style>
+    #info{
+        color: green;
+    }
+</style>
+</body>
+</html>

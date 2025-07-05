@@ -3,3 +3,5 @@ def esDobleCero(*args):
         if args[i] == 0 and args[i + 1] == 0:
             return True
     return False
+
+

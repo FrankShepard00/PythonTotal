@@ -22,3 +22,4 @@ def contar_primos(numero):
 print(contar_primos(50))
             
         
+        

@@ -37,3 +37,4 @@ texto = texto.replace("_", "")
 
 # Muestra el resultado final limpio
 print(texto)  # Python Total
+

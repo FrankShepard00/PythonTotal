@@ -26,3 +26,14 @@ def lentras_unicas(palabra):
     return mi_lista
 
 print(lentras_unicas("entretenido"))
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+ANÁLISIS DE DECISIÓN
+==================================================
+Decisión: Mudarnos a la CDMX
+Fecha y hora: 27/06/2025 14:46:02
+
+PROS (8):
+--------------------
+1. Veríamos más a nuestra familia y amigos - 3 (Significativamente relevante)
+2. Las oportunidades laborales serían mejores. - 4 (Muy relevante)
+3. No necesitaríamos un coche, mejor transporte. - 4 (Muy relevante)
+4. Tendríamos una red de apoyo - 4 (Muy relevante)
+5. Saldríamos más seguido - 4 (Muy relevante)
+6. Mejores servicios de salud - 3 (Significativamente relevante)
+7. Tendríamos con quien encargar a las gatas cuando salgamos - 3 (Significativamente relevante)
+8. Acceso rápido a aeropuertos y terminales - 2 (Relevante)
+
+CONTRAS (10):
+--------------------
+1. Costo de vida en general más elevado - 4 (Muy relevante)
+2. Vamos a vivir en un espacio más pequeño y con ruido - 4 (Muy relevante)
+3. Es un volado, no sabemos si el lugar donde nos mudemos tenga o no agua. - 4 (Muy relevante)
+4. Tendríamos que buscar veterinarios de nuevo - 3 (Significativamente relevante)
+5. Seguiríamos viviendo entre cajas - 4 (Muy relevante)
+6. Riesgo de gentrificación - 3 (Significativamente relevante)
+7. Mayor estrés urbano y ritmo de vida acelerado - 3 (Significativamente relevante)
+8. Inseguridad o percepción de mayor delincuencia. - 3 (Significativamente relevante)
+9. Menos capacidad de ahorro - 4 (Muy relevante)
+10. Que la mudanza no sea lo que esperamos o nos afecte emocionalmente. - 3 (Significativamente relevante)
+
+RESUMEN:
+--------------------
+Total PROS: 27
+Total CONTRAS: 35
+PUNTUACIÓN FINAL: -8
+RECOMENDACIÓN: Considera con cuidado. La decisión tiene una puntuación negativa.

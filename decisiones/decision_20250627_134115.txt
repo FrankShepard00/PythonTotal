@@ -1,0 +1,20 @@
+ANÁLISIS DE DECISIÓN
+==================================================
+Decisión: Mudarme de lugar
+Fecha y hora: 27/06/2025 13:41:15
+
+PROS (2):
+--------------------
+1. Estaremos más serca de la familia - 4 (Muy relevante)
+2. Saldriamos mas seguido - 2 (Relevante)
+
+CONTRAS (1):
+--------------------
+1. Pagaríamos más de renta - 3 (Significativamente relevante)
+
+RESUMEN:
+--------------------
+Total PROS: 6
+Total CONTRAS: 3
+PUNTUACIÓN FINAL: 3
+RECOMENDACIÓN: ¡Adelante! La decisión tiene una puntuación positiva.
