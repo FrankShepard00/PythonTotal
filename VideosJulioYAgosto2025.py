@@ -8,7 +8,7 @@ class CursoPlanner:
         self.fecha_inicio = datetime(2025, 6, 16)
         # Ajustamos la hora actual a CDMX (UTC-6)
         self.fecha_actual = datetime.now()
-        self.fecha_fin = datetime(2025, 7, 30)
+        self.fecha_fin = datetime(2025, 8, 31)
         self.dias_libres = {
             # Junio 2025
             datetime(2025, 6, 21).date(),   # sábado
@@ -24,6 +24,17 @@ class CursoPlanner:
             datetime(2025, 7, 20).date(),   # domingo
             datetime(2025, 7, 26).date(),   # sábado
             datetime(2025, 7, 27).date(),   # domingo
+            # Agosto 2025
+            datetime(2025, 8, 2).date(),    # sábado
+            datetime(2025, 8, 3).date(),    # domingo
+            datetime(2025, 8, 9).date(),    # sábado
+            datetime(2025, 8, 10).date(),   # domingo
+            datetime(2025, 8, 16).date(),   # sábado
+            datetime(2025, 8, 17).date(),   # domingo
+            datetime(2025, 8, 23).date(),   # sábado
+            datetime(2025, 8, 24).date(),   # domingo
+            datetime(2025, 8, 30).date(),   # sábado
+            datetime(2025, 8, 31).date(),   # domingo
         }
 
     def calcular_dias_transcurridos(self):
