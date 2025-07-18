@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Milisegundos desde Epoch</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<script>
+$(document).ready(function(){
+    $("#atrr_type").click(function(){
+        var x = "El valor del atributo es: "+$("input").attr("type");
+        $("#info").html(x)
+    })
+    $("#attr_id").click(function(){
+        var x = "El valor del atributo es: "+$("input").attr("id");
+        $("#info").html(x)
+    })
+})
+</script>
+<input type="text" id="mild" value="nombre">
+<div id="info"></div>
+<button id="atrr_type">Atributo type</button>
+<button id="attr_id">Atributo id</button>
+
+
+
+<style>
+
+
+
+</style>
+ 
+
+
+    
+</body>
+</html>

@@ -5,3 +5,4 @@ archivo = carpeta / "Archivo1.txt"
 
 mi_archivo = open(archivo, encoding='utf-8')
 print(mi_archivo.read())
+
