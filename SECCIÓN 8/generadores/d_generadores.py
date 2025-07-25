@@ -10,3 +10,4 @@ print(next(generador))
 print(next(generador))
 print(next(generador))
 print(next(generador))
+

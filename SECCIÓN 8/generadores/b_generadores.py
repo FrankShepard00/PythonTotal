@@ -21,3 +21,4 @@ print(next(g))
 print(next(g))
 print(next(g))
 print(next(g)) #StopIteration
+

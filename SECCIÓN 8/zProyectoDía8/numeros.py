@@ -21,3 +21,4 @@ def generador_turnos(seccion):
     while True:
         yield f"     {seccion[0].upper()}-{numero}"
         numero += 1
+

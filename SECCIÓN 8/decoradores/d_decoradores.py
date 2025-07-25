@@ -15,6 +15,6 @@ def mayusculas(texto):
 def minusculas(texto):
     print(texto.lower())
     
-minusculas('Minusculas')
+minusculas('Python')
 
-mayusculas('Mayusculas')
+mayusculas('Python')

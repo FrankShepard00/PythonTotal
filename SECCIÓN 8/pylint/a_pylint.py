@@ -8,3 +8,5 @@ def una_funcion():
     print(numero1)
 
 una_funcion()
+
+
