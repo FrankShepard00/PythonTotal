@@ -14,3 +14,4 @@ class Jugador:
     @classmethod
     def revivir(cls):
         cls.vivo = True
+        

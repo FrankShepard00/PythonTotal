@@ -7,3 +7,9 @@ print(guia.parent)
 print(guia.parent.parent)
 print(guia.parent.parent.parent)
 
+"""
+Salida: 
+C:\Users\frank\Europa\España\Barcelona
+C:\Users\frank\Europa\España
+C:\Users\frank\Europa
+"""

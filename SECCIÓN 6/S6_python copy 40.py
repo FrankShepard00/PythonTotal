@@ -6,3 +6,5 @@ Crea una función llamada sobrescribir() que abra (open) un archivo indicado com
 def sobrescribir(archivo):
     contenido = open(archivo, "w+", encoding='utf-8')
     contenido.write("contenido eliminado")
+    
+    

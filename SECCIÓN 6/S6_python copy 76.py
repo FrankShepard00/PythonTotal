@@ -21,3 +21,4 @@ class Hija(Madre, Padre):
     pass
 
 # En la tarjeta la tercera parte explica por que primero se pone Madre y después padre. 
+

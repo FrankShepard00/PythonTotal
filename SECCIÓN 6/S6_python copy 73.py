@@ -18,3 +18,4 @@ class Vehiculo:
     
 class Automovil(Vehiculo):
     pass
+

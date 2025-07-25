@@ -12,3 +12,6 @@ class Libro():
         
     def __str__(self):
         return f'"{self.titulo}", de {self.autor}' 
+    
+mi_libro = Libro("Harry Potter", "JK", 345)
+print(mi_libro)

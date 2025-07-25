@@ -46,4 +46,5 @@ class Mamifero(Vertebrado):
 class Ornitorrinco(Ave, Pez, Mamifero, Reptil):
     pass 
 
+
 # puedes cambiar el orden de herencia al que tenga mas sentido

@@ -21,5 +21,12 @@ class Samurai():
 def personaje_defender(personaje):
     personaje.defender() 
     
-print("holamundo")
+gandalf = Mago()
+legolas = Arquero()
+silverHand = Samurai()
+
+personajes = [gandalf, legolas, silverHand]
+
+for personaje in personajes:
+    personaje.defender()
 

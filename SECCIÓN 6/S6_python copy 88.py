@@ -12,3 +12,6 @@ class Libro():
 
     def __del__(self):
         print("Libro eliminado")
+        
+mi_libro = Libro("Inteligencia emocional", "Coleman", 405)
+del(mi_libro)

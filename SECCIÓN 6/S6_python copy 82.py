@@ -25,3 +25,4 @@ personajes = [arquero, mago, samurai]
 
 for personaje in personajes:
     personaje.atacar()
+    

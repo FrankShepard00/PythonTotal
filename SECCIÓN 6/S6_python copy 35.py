@@ -9,3 +9,4 @@ en_espania = guia.relative_to(base / "Downloads" / "Europa" / "España")
 
 print(en_europa)   # España/Barcelona/Sagrada_Familia.txt
 print(en_espania)  # Barcelona/Sagrada_Familia.txt
+

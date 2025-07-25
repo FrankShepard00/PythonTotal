@@ -12,3 +12,6 @@ class Libro():
 
     def __len__(self):
         return self.cantidad_paginas
+    
+mi_libro = Libro("El camino del artista", "Julia Cameron", 350)
+print(len(mi_libro))

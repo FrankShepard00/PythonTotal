@@ -5,3 +5,4 @@ def registro_error(archivo):
     contenido = open(archivo, "a", encoding='utf-8')
     contenido.write("se ha registrado un error de ejecución")
     contenido.close()
+    

@@ -1,7 +1,10 @@
 from pathlib import Path
 
-ruta = Path('C:/Users/Usuario/Desktop/Curso Python') / 'Cuestionario Día 6' / 'Pregunta 1'
-carpeta = ruta.parents[3]
+ruta = Path('C:\Mis apps\Python TOTAL\SECCIÓN 6') 
+carpeta = ruta.parents[0]
+print(carpeta) # C:\Mis apps\Python TOTAL
+carpeta = ruta.parents[1]
+print(carpeta) # C:\Mis apps
 
 
 '''

@@ -27,4 +27,4 @@ piolin.hablar()
 piolin.volar(100)
 
 mi_animal = Animal(5, "Rojo")
-mi_animal.volar() # Error
+#mi_animal.volar() # Error

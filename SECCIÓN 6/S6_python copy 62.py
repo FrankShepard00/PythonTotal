@@ -26,3 +26,4 @@ class Pajaro:
 Pajaro.poner_huevos(3) # Los métodos de clase se pueden llamar sin objetos
 # no pueden acceder a los atributos de instancia. 
 
+

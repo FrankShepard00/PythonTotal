@@ -8,3 +8,4 @@ nombre_sin_extension = ruta.stem
 
 print(nombre_sin_extension)
 #Salida: informe_final
+
